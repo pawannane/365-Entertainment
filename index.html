@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>365 Entertainment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+  
+      <!-- Navigation Bar -->
+      <div class="navbar">
+        <a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo"/></a>
+        <a href="movies.html">Movies</a>
+        <a href="#tvseries">TV Series</a>
+        <a href="#audio">Audio</a>
+      </div>
+      <div class="bar"></div>
+  
+
+    <section>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/lagaan.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/special26.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/1920.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/yjhd.jpg" style="width: 100%" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <!-- Genre Categories -->
+      <div class="popular"><h2>Popular in Action</h2></div>
+      <div id="action">
+        <div class="media">
+          <img
+            src="images/action/shang-chi.jfif"
+            alt="shang-chi"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Shang Chi</b>
+            <br />
+            2021 Marvel Action Martial Arts Film
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/action/justice-league.jfif"
+            alt="justice-league"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Justice League</b>
+            <br />
+            2017 Action Adventure Film
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/action/lastCity.jfif"
+            alt="Last City"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Last City</b>
+            <br />
+            Thriller, Mystery & Comedy
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/action/Tomb_Raider.png"
+            alt="Tomb_Raider"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Tomb Raider</b>
+            <br />
+            Action, Adventure & Thriller
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/action/bohemian.jpg"
+            alt="bohemian"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Bohemian</b>
+            <br />
+            Japanese Manga Series written by Tsugumi
+          </div>
+        </div>
+        <div class="media">
+          <img src="images/action/War.jpg" alt="war" width="200" height="200" />
+          <div class="overlay">
+            <b>War</b>
+            <br />
+            Indian Action Film
+          </div>
+        </div>
+      </div>
+
+      <div class="popular"><h2>Popular in Drama</h2></div>
+      <div id="drama">
+        <div class="media">
+          <img src="images/drama/nun.jpg" alt="nun" width="200" height="200" />
+          <div class="overlay">
+            <b>The Nun</b>
+            <br />
+            2016 Fantasy/Science Fiction
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/drama/avengers-infinity.jpg"
+            alt="avengers-infinity-war"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Avengers Infinity War</b>
+            <br />
+            2018 Marvel Action SuperHero Film
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/drama/aquaman.jpg"
+            alt="aquaman"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Aquaman</b>
+            <br />
+            DC Action, Thriller & Mystery
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/drama/tomb.jpg"
+            alt="Tomb_Raider"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Tomb Raider</b>
+            <br />
+            Action, Adventure & Thriller
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/drama/fight-club.jpg"
+            alt="fight-club"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Fight Club</b>
+            <br />
+            American Martial Arts Film
+          </div>
+        </div>
+      </div>
+
+      <div class="popular"><h2>Popular in Sci-Fi</h2></div>
+      <div id="scifi">
+        <div class="media">
+          <img
+            src="images/Sci-Fi/the-suicide-squad.jpg"
+            alt="the-suicide-squad"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>The Sucide Squad</b>
+            <br />
+            2021 Action/Adventure
+          </div>
+        </div>
+        <div class="media">
+          <img src="images/Sci-Fi/io.jpg" alt="io" width="200" height="200" />
+          <div class="overlay">
+            <b>IO</b>
+            <br />
+            2019 Netflix SciFi Film
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/Sci-Fi/black-widow.jpg"
+            alt="black-widow"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Black Widow</b>
+            <br />
+            2021 Action/Adventure
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/Sci-Fi/tomorrow-war.jpg"
+            alt="tomorrow-war"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>The Tomorrow War</b>
+            <br />
+            2021 Action/Sci-fi
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/Sci-Fi/The_Platform_poster.jpg"
+            alt="fight-club"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>The Platform</b>
+            <br />
+            2019 Thriller/Sci-fi
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="images/Sci-Fi/Outside-the-Wire.jpg"
+            alt="Outside-the-Wire"
+            width="200"
+            height="200"
+          />
+          <div class="overlay">
+            <b>Outside the Wire</b>
+            <br />
+            2021 Netflix SciFi Film
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="copyright">
+        <a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo" />
+        <div class="text">Powered by 365 Entertainment Portal 2019. All Rights Reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
